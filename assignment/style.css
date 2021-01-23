@@ -1,11 +1,72 @@
 /* Give your page a fun background color */
+body {
+  background-color: #0073bf;
+}
 
 /* Make the header and footer a different color from the background */
-
+header {
+  color: white;
+  border-style: outset solid;
+  border-radius: 8px;
+  border-color: #339681;
+  margin: 0px;
+  font-family: Georgia, Verdana;
+  background-color: rgb(174, 232, 220, 0.5);
+  padding: 10px;
 /* Align the h1 containing your name in the center of the header*/
+  text-align: center;
+}
 
 /* Make your p tag a different color and italic */
+p {
+  color: #e8fffa;
+  font-style: italic;
+  font-family: Helvetica, 'Times New Roman';
+  font-size: 14px;
+  background-color: rgb(55, 222, 187, 0.2);
+  border: 2px solid #339681;
+  border-bottom-style: outset;
+  border-right-style: outset;
+  margin-top: 10px;
+  padding: 42px;
+}
 
 /* Put a border around your image */
+img {
+  border: 8px solid #b8fff0;
+  border-width: 8px;
+  border-color: #339681;
+  border-top-style: outset;
+  border-left-style: outset;
+}
 
 /* Change the font-family of your list */
+ul {
+  color: white;
+  font-family: Helvetica, 'Times New Roman';
+  font-style: italic;
+  list-style-type: square;
+}
+
+h3 {
+  font-style: oblique;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: -8px;
+  text-shadow: 2px 2px black;
+}
+
+li {
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+.funFacts {
+  font-size: 18px;
+  margin-top: 5px;
+  border: 2px solid #b8fff0;
+  border-radius: 12px;
+  background-color: rgb(55, 222, 187, 0.2);
+  border-bottom-style: groove;
+  border-right-style: groove;
+}
