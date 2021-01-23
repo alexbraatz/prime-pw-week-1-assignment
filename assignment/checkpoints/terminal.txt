@@ -23,7 +23,9 @@ git version 2.30.0
 
 # 8 - Why would you run the command 'git status'?
 "For multiple reasons:
-- to check to see which files
+- to check to see which files have been modified but not yet staged for commit
+- to verify the correct, and all, files have been committed and are ready to push
+
 
 # 9 - What does the command 'git add .' do?
 
